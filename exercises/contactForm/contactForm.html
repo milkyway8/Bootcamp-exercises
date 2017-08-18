@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Metadata goes here-->
+        <meta charset = "utf-8">
+        <html lang = "en">
+        <title> Johnathan Osorno Valencia | Resume</title>
+            
+        <!--Bootstrap cdn-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+            
+        <!--styles-->
+        <link rel="stylesheet" href="contactForm.css">
+    </head>
+    <body>
+        <!--Content goes here-->
+        <div class = 'form'>
+            <form>
+                <div class='form-group'>
+                    <label for='inputName'>Name</label>
+                    <input type='name' class='form-control' id='name' placeholder='enter your name'>
+                </div>
+                <div class='form-group'>
+                    <label for='inputEmail'>Email address</label>
+                    <input type='email' class='form-control' id='inputEmail' aria-describedby='emailHelp' placeholder='user@domain.com'>
+                    <small id='emailHelp' class='from-text text-muted'>I'll never share your email with anyone else</small>
+                
+                </div>
+                <div class='form-group'>
+                    <label for='inputMessage'>Message</label>
+                    <textarea type='text' class='form-control' id='inputMessage' placeholder='write a message'></textarea>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      Check me out
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
